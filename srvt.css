@@ -1,6 +1,6 @@
 .grid {
   background-color: lightgreen;
-  width: 100%;
+  width: 1360px;
   display: grid;
   grid-template:
     "header"
@@ -50,4 +50,30 @@ a {
 
 .footer {
   grid-area: footer;
+  display: flex;
 }
+
+.logo-redes {
+ display: block;
+ margin: 30px 0px 30px 0px;
+ position: relative;
+ left: 80%;
+ bottom: 44%;
+ 
+}
+
+
+.redes {
+  top: 25%;
+  position: relative;
+  right: 5%;
+}
+
+.links{
+  list-style: none;
+  margin: 50px 0px 50px 0px;
+  position: relative;
+  left: 100% ;
+  
+}
+
