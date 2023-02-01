@@ -3,9 +3,11 @@
   display: grid;
   grid-template:
     "header"
-    "body"
+    "sobre"
+    "desenhos"
+    "comissoes"
     "footer";
-  grid-template-rows: 120px 5100px 500px;
+  grid-template-rows: 100px 500px 500px 500px 500px;
   color: white;
 }
 
@@ -13,17 +15,12 @@ html {
   scroll-behavior: smooth;
 }
 
-
 .header {
   grid-area: header;
   background-color: lightgreen;
   width: 100%;
   border-bottom: 2px solid #72BA72;
-}
-
-.logo {
-  display: block;
-  padding: 50px 0px 100px;
+  position: fixed;
 }
 
 a {
@@ -38,7 +35,8 @@ a {
 
 .menu {
   position: relative;
-  top: 25%;
+  top: 20px;
+  height: 100px;
   text-align: center;
 }
 
@@ -58,10 +56,42 @@ a {
   width: 100%;
 }
 
-.body {
-  grid-area: body;
-  background-color: white;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer {
   background-color: lightgreen;
