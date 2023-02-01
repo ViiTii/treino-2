@@ -7,13 +7,10 @@
     "desenhos"
     "comissoes"
     "footer";
-  grid-template-rows: 100px 500px 500px 500px 500px;
+  grid-template-rows: 100px 1000px 1000px 1000px 500px;
   color: white;
 }
 
-html {
-  scroll-behavior: smooth;
-}
 
 .header {
   grid-area: header;
@@ -57,6 +54,23 @@ a {
 }
 
 
+.sobre {
+  width: 100%;
+ grid-area: sobre;
+ background-color: aqua;
+}
+
+.desenhos {
+  width: 100%;
+ grid-area: desenhos;  
+ background-color: blue;
+}
+
+.comissoes{
+  width: 100%;
+  grid-area: comissoes;
+  background-color: black;
+}
 
 
 
@@ -91,9 +105,7 @@ a {
 
 
 
-
-
-.footer {
+#footer {
   background-color: lightgreen;
   width: 100%;
   grid-area: footer;
