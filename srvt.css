@@ -1,6 +1,6 @@
 .grid {
-  background: linear-gradient(rgb(255, 175, 189), rgb(246, 219, 232));
-  width: 1360px;
+  background-color: lightgreen;
+  width: 100%;
   display: grid;
   grid-template:
     "header"
