@@ -5,9 +5,14 @@
     "header"
     "body"
     "footer";
-  grid-template-rows: 120px 500px 500px;
+  grid-template-rows: 120px 5100px 500px;
   color: white;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 
 .header {
   grid-area: header;
@@ -28,6 +33,7 @@ a {
   color: white;
   text-align: center;
   position: relative;
+  
 }
 
 .menu {
