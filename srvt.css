@@ -1,17 +1,19 @@
 .grid {
-  background-color: lightgreen;
-  width: 1360px;
+  width: 100%;
   display: grid;
   grid-template:
     "header"
     "body"
     "footer";
-  grid-template-rows: 500px 1fr 500px;
-  color: rgb(234, 89, 110);
+  grid-template-rows: 120px 500px 500px;
+  color: white;
 }
 
 .header {
   grid-area: header;
+  background-color: lightgreen;
+  width: 100%;
+  border-bottom: 2px solid #72BA72;
 }
 
 .logo {
@@ -22,10 +24,16 @@
 a {
   text-decoration: none;
   font-size: 40px;
-  margin: 0px 50px 0px 50px;
-  color: rgb(234, 89, 110, 1);
+  margin: 0px 50px 0px 50px; 
+  color: white;
   text-align: center;
   position: relative;
+}
+
+.menu {
+  position: relative;
+  top: 25%;
+  text-align: center;
 }
 
 .menu a::after {
@@ -33,7 +41,7 @@ a {
   width: 0%;
   height: 4px;
   border-radius: 20px;
-  background-color: rgb(234, 89, 110);
+  background-color: #72BA72;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -46,34 +54,41 @@ a {
 
 .body {
   grid-area: body;
+  background-color: white;
 }
 
 .footer {
+  background-color: lightgreen;
+  width: 100%;
   grid-area: footer;
   display: flex;
 }
 
 .logo-redes {
- display: block;
- margin: 30px 0px 30px 0px;
- position: relative;
- left: 80%;
- bottom: 44%;
- 
+  display: block;
+  margin: 30px 0px 30px 0px;
+  position: relative;
+  left: 75%;
+  bottom: 54%;
 }
-
 
 .redes {
-  top: 25%;
+  top: 14%;
   position: relative;
-  right: 5%;
+  right: 15%;
 }
 
-.links{
+.links {
   list-style: none;
   margin: 50px 0px 50px 0px;
   position: relative;
-  left: 100% ;
-  
+  left: 100%;
 }
 
+.textf {
+  font-size: 30px;
+  position: relative;
+  right: 50%;
+  bottom: 118%;
+  text-align: center;
+}
